@@ -1,0 +1,2 @@
+# adwc-demo
+Object StorageからADWCへデータロードをする
