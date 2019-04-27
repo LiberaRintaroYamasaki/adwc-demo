@@ -1,6 +1,7 @@
 # adwc-demo
 Object StorageからADWCへデータロードをする
 
+You can download [sample data](https://console.us-ashburn-1.oraclecloud.com/object-storage/buckets/liberarintaro/BucketForDemo).
 
 ## Load Data - Create Credentials and Copy Data into an Existing Table
 
