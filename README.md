@@ -4,6 +4,8 @@ Object StorageからADWCへデータロードをする
 
 ## Load Data - Create Credentials and Copy Data into an Existing Table
 
+Access the notebook.
+
 #### create credential
 ```
 %script
