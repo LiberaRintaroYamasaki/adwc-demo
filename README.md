@@ -23,13 +23,22 @@ END;
 #### create table
 ```
 %sql
-CREATE TABLE CHANNELS
-   (channel_id char(1),
-    channel_desc varchar2(20),
-    channel_class varchar2(20)
-   );
-
+CREATE TABLE airbnb
+    (Host_Id number(10),
+     Host_Since date,
+     Name varchar2(100),
+     Neighbourhood varchar2(20),
+     Review_Scores_Rating_Bin number(10),
+     Room_Type varchar2(20),
+     Zipcode number(5),
+     Beds number(2),
+     Number_of_Records number(2),
+     Number_Of_Reviews number(4),
+     Price number(6),
+     Review_Scores_Rating number(3)
+     );
 /
+
 ```
 
 
