@@ -44,13 +44,13 @@ CREATE TABLE airbnb
 
 #### load data into an existing table  
 ```
-%sql
+%script
 BEGIN
  DBMS_CLOUD.COPY_DATA(
-    table_name =>'CHANNELS',
-    credential_name =>'DEF_CRED_NAME',
-    file_uri_list =>'https://objectstorage.us-phoenix-1.oraclecloud.com/n/adwc/b/adwc_user/o/channels.txt',
-    format => json_object('delimiter' value ',')
+    table_name =>'airbnb',
+    credential_name =>'airbnbMachineLearning',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/liberarintaro/b/BucketForDemo/o/airbnb.csv',
+    format => json_object('type' value 'CSV')
  );
 END;
 /
